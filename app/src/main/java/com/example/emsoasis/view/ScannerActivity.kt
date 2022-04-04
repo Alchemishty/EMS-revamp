@@ -103,14 +103,14 @@ class ScannerActivity : AppCompatActivity() {
                    }
                }
            } catch (e: Exception) {
-                Log.e("Scanner Activity", "Error in adding button = ${e.toString()}")
+                Log.e("Scanner Activity", "Error in adding button = $e")
            }
        }
 
            codeScanner.errorCallback = ErrorCallback {
                runOnUiThread {
                    Toast.makeText(this, "Error in scanning code", Toast.LENGTH_LONG).show()
-                   Log.e("Scanner Activity", "Error occoured in Scanning code = ${it.toString()}")
+                   Log.e("Scanner Activity", "Error occoured in Scanning code = $it")
                }
 
            }

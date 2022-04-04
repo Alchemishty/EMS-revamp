@@ -8,6 +8,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/shash/AndroidStudioProjects/EMS-revamp/app/src/main/res/drawable/gradient_login.xml" value="0.2265" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/EMS-revamp/app/src/main/res/drawable/rounded_login_button.xml" value="0.2265" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/EMS-revamp/app/src/main/res/layout/activity_event.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/EMS-revamp/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/EMS-revamp/app/src/main/res/layout/activity_member.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/EMS-revamp/app/src/main/res/layout/activity_scanner.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/EMS-revamp/app/src/main/res/layout/activity_team.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/EMS-revamp/app/src/main/res/layout/adapter_events.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/EMS-revamp/app/src/main/res/layout/adapter_member.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/EMS-revamp/app/src/main/res/layout/adapter_teams.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_event.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/layout/activity_member.xml" value="0.24114583333333334" />

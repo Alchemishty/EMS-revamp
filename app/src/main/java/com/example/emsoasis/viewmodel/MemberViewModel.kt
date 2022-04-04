@@ -22,7 +22,7 @@ class MemberViewModel(val eventId: String, val teamId: String, val repo: Repo) :
                 members.asMut().postValue(it.body()!!.members)
             }
         },{
-            Log.e("Member View Model", "Error occoured = ${it.toString()}")
+            Log.e("Member View Model", "Error occoured = $it")
         })
     }
 }

@@ -9,7 +9,7 @@ import com.example.emsoasis.R
 import com.example.emsoasis.model.retrofit.MemberPojo
 import kotlinx.android.synthetic.main.adapter_member.view.*
 
-class MemberAdapter(): RecyclerView.Adapter<MemberAdapter.ViewHolder>(){
+class MemberAdapter : RecyclerView.Adapter<MemberAdapter.ViewHolder>(){
 
     var members: List<MemberPojo> = emptyList()
 

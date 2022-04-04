@@ -10,7 +10,6 @@ import com.example.emsoasis.model.room.EventsData
 import kotlinx.android.synthetic.main.adapter_events.view.*
 
 class EventsAdapter(private val listener: OnEventClick): RecyclerView.Adapter<EventsAdapter.EventsViewHolder>(){
-
     var events: List<EventsData> = emptyList()
 
     interface OnEventClick{
