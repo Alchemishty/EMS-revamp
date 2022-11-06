@@ -35,17 +35,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /*checkBox.setOnCheckedChangeListener(CompoundButton.OnCheckedChangeListener(){
-            @Override
-            fun onCheckedChange(buttonView : CompoundButton, isChecked : Boolean) {
-                if(isChecked){
-                    edit_password.transformationMethod = HideReturnsTransformationMethod.getInstance()
-                }
-                else{
-                    edit_password.transformationMethod = PasswordTransformationMethod.getInstance()
-                }
-            }
-        })*/
         checkBox.setOnCheckedChangeListener { buttonView, isChecked ->
             if (isChecked) {
                 edit_password.transformationMethod = HideReturnsTransformationMethod.getInstance()
