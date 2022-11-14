@@ -102,6 +102,7 @@ class ScannerActivity : AppCompatActivity() {
                        qrCodes = LinkedHashSet()
                    }
                }
+               qrCodes.toList().forEach(::print);
            } catch (e: Exception) {
                 Log.e("Scanner Activity", "Error in adding button = $e")
            }
